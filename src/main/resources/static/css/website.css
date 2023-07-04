@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  background-color: red;
+  color: white;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%
+}
+
+h2{
+display: inline-flex;
+  margin-right: auto;
+}
+
+#logo{
+  width: 70px;
+  padding-right: 10px;
+}
+
+#name{
+    margin-right: auto
+}
+
+.nav li{
+  display: inline-block;
+  padding: 10px
+}
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  background-color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a:link, a:visited{
+  color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("../img/selective.jpg");
+    color: black;
+    min-height: 374px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+  }
+
+footer{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  background-color: red;
+  color: white;
+  flex-shrink: 0;
+  flex:1;
+}
+
+.footer h3{
+  text-decoration: underline;
+}
+
+iframe{
+  height: 500px;
+  width: 1263px;
+  align-content: center;
+}
+
+#company li{
+  display:inline-block;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#contForm input{
+  border-radius: 8px;
+  width: 400px;
+  height: 30px;
+  border-color: black;
+  border-width: medium;
+}
+
+#contForm textarea{
+  border-radius: 8px;
+  border-color: black;
+  width: 400px;
+  height: 100px;
+  border-width: medium;
+}
+
+::placeholder{
+  font-family: Arial;
+  padding: 5px;
+}
+
+.btn{
+  background-color: black;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  color: white;
+  border-color: black;
+}
+
+.btn:hover, .btn:focus{
+  width: 120px;
+}
+
+.quote{
+  display: flex;
+  flex-direction:column;
+  width: 500px;
+  height: 150px;
+  align-self: center;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  padding: 30px
+}
+
+.quote h1, .quote p{
+  align-self: center;
+}
+
+#seemore{
+  width: 180px;
+  height: 35px;
+  background: black;
+  border-radius: 20px;
+  border-color: black;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  align-self: center;
+}
+
+#seemore:hover, #seemore:focus, #a1{
+  text-decoration: underline;
+  font-weight: bolder;
+}
