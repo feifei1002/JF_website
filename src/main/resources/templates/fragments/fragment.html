@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/website.css" th:fragment="style-css">
+</head>
+<body>
+<div th:fragment="header">
+    <header>
+    <div id="name">
+        <img src="img/logo.png" alt="logo" id="logo">
+        <h2 id="name">J&F Industries International Co., Ltd</h2>
+    </div>
+    <div class='nav' id="lang">
+        <li><a href="#">English</a></li>
+        <li><a href="#">Vietnamese</a></li>
+    </div>
+    </header>
+
+<main>
+    <div class="nav" id="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about-en">About</a></li>
+            <li><a href="products-en">Products</a></li>
+            <li><a href="contact-en">Contact</a></li>
+        </ul>
+    </div>
+</main>
+</div>
+
+<div th:fragment="footer">
+<footer>
+    <div class="footer">
+        <h3>Contact</h3>
+        <ul>
+            Tel: +84-274-3624200<br>
+            Fax: +84-274-3624201<br>
+            E-mail: <a href="mailto:bd@jfrack.com">bd@jfrack.com</a>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <h3>Address</h3>
+        <p>
+            Address: C2-18, Da Den Industrial Zone, <br>Thu Dau Mot City, <br>Binh Duong Province, Viet Nam
+        </p>
+    </div>
+
+    <div class ="footer" id="company">
+        <h3>Company</h3>
+        <li><a href="about-en.html">About</a></li><br>
+        <li><a href="products-en.html">Products</a></li><br>
+        <li><a href="contact-en.html">Contact</a></li>
+    </div>
+
+</footer>
+</div>
+</body>
+</html>
