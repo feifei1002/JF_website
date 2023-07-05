@@ -60,6 +60,19 @@ a:link, a:visited{
     align-self: center;
   }
 
+#about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#about-content{
+  text-align: center;
+  margin: 10px;
+  font-size: large;
+}
+
 footer{
   display: flex;
   flex-flow: wrap;
@@ -77,7 +90,7 @@ footer{
 }
 
 iframe{
-  height: 500px;
+  height: 400px;
   width: 1263px;
   align-content: center;
 }
