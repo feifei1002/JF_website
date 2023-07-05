@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/website.css" th:fragment="style-css">
+</head>
+<body>
+<div th:fragment="header">
+    <header>
+    <div id="name">
+        <a href="home-vn"><img src="img/logo.png" alt="logo" id="logo"></a>
+        <h2>CÔNG TY TNHH QUỐC TẾ J&F</h2>
+    </div>
+    <div class='nav' id="lang">
+        <li><a href="home-en">Tiếng Anh</a></li>
+        <li><a href="home-vn">Tiếng Việt</a></li>
+    </div>
+    </header>
+
+<main>
+    <div class="nav" id="navbar">
+        <ul>
+            <li><a href="home-vn">Trang chủ</a></li>
+            <li><a href="about-vn">Giới thiệu</a></li>
+            <li><a href="products-vn">Sản phẩm</a></li>
+            <li><a href="contact-vn">Liên hệ</a></li>
+        </ul>
+    </div>
+</main>
+</div>
+
+<div th:fragment="footer">
+<footer>
+    <div class="footer">
+        <h3>Liên hệ</h3>
+        <ul>
+            Tel: +84-274-3624200<br>
+            Fax: +84-274-3624201<br>
+            E-mail: <a href="mailto:bd@jfrack.com">bd@jfrack.com</a>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <h3>Địa chỉ</h3>
+        <p>
+            Địa chỉ: Lô C2-18, KCN Đại Đăng,<br> phường Phú Tân, thành phố Thủ Dầu Một, <br>tỉnh Bình Dương, Việt Nam
+        </p>
+    </div>
+
+    <div class ="footer" id="company">
+        <h3>Công ty chúng tôi</h3><br>
+        <li><a href="about-vn">Giới thiệu</a></li><br>
+        <li><a href="products-vn">Sản phẩm</a></li><br>
+        <li><a href="contact-vn">Liên hệ</a></li>
+    </div>
+
+</footer>
+</div>
+</body>
+</html>

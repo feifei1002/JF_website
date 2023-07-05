@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<title>Liên hệ</title>
+  <link th:replace="fragments/fragment-vn :: style-css">
+  <link rel="stylesheet" th:href="@{/css/website.css}">
+</head>
+
+<body>
+<link th:replace="fragments/fragment-vn :: header">
+
+<section>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62660.194286596714!2d106.66181923514571!3d11.018947979438671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d058f7ba4d6f%3A0x1646825d7a23214b!2sJ%26F%20Company!5e0!3m2!1szh-TW!2suk!4v1639338239934!5m2!1szh-TW!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  <div class="contact">
+  <form id="contForm">
+    <h2>Liên hệ</h2>
+    <p>Liên hệ với chúng tôi dưới đây</p><br>
+    <input type="text" placeholder="Họ và tên"><br><br>
+    <input type="email" placeholder="email"><br><br>
+    <input type="number" placeholder="Số điện thoại"><br><br>
+    <textarea placeholder="Nhu cầu của bạn"></textarea><br><br>
+    <button type="submit" class="btn">Liên hệ</button><br><br>
+  </form>
+
+  <div>
+    <h2>Thông tin liên hệ</h2><br><br>
+      <h4>CÔNG TY TNHH QUỐC TẾ J&F</h4><br>
+    <h3>Địa chỉ</h3>
+      <p>Lô C2-18, KCN Đại Đăng, phường Phú Tân, <br>thành phố Thủ Dầu Một, tỉnh Bình Dương, Việt Nam</p><br>
+    <h3>Liên hệ</h3>
+      <p>Tel: +84-274-3624200</p>
+      <p>Mr. Liu: +84-946-766866</p>
+      <p>Ms. Wang: +84-946-766889</p>
+      <p>E-mail: <a style="color:black" href="mailto:bd@jfrack.com">bd@jfrack.com</a></p>
+  </div>
+  </div>
+</section>
+
+<link th:replace="fragments/fragment-vn :: footer">
+</body>
+</html>

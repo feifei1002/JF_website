@@ -17,6 +17,11 @@ display: inline-flex;
   margin-right: auto;
 }
 
+h3{
+  display: inline-flex;
+  margin-right: auto;
+}
+
 #logo{
   width: 70px;
   padding-right: 10px;
