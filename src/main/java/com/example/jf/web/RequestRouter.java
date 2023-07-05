@@ -8,16 +8,16 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class RequestRouter implements WebMvcConfigurer {
 
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/").setViewName("index-en");
-        registry.addViewController("/home-en").setViewName("index-en");
-        registry.addViewController("/about-en").setViewName("about-en");
-        registry.addViewController("/contact-en").setViewName("contact-en");
-        registry.addViewController("/products-en").setViewName("products-en");
-        registry.addViewController("/fragments/fragment-en").setViewName("fragment-en");
-        registry.addViewController("/home-vn").setViewName("index-vn");
-        registry.addViewController("/about-vn").setViewName("about-vn");
-        registry.addViewController("/contact-vn").setViewName("contact-vn");
-        registry.addViewController("/products-vn").setViewName("products-vn");
-        registry.addViewController("/fragments/fragment-vn").setViewName("fragment-vn");
+        registry.addViewController("/").setViewName("/en/index-en");
+        registry.addViewController("/home-en").setViewName("/en/index-en");
+        registry.addViewController("/about-en").setViewName("/en/about-en");
+        registry.addViewController("/contact-en").setViewName("/en/contact-en");
+        registry.addViewController("/products-en").setViewName("/en/products-en");
+        registry.addViewController("/fragment-en").setViewName("/fragments/fragment-en");
+        registry.addViewController("/home-vn").setViewName("/vn/index-vn");
+        registry.addViewController("/about-vn").setViewName("/vn/about-vn");
+        registry.addViewController("/contact-vn").setViewName("/vn/contact-vn");
+        registry.addViewController("/products-vn").setViewName("/vn/products-vn");
+        registry.addViewController("/fragment-vn").setViewName("/fragments/fragment-vn");
     }
 }
