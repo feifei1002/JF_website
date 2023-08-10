@@ -42,7 +42,7 @@ h3{
   text-align: center;
   justify-content: center;
   margin: 0;
-  background-color: black;
+  background-color: #093907;
   font-weight: bolder;
   font-size: 20px;
 }
@@ -55,7 +55,7 @@ a:link, a:visited{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-image: url("../img/selective.jpg");
+    background-image: url("../img/home.jpg");
     color: black;
     min-height: 374px;
     background-attachment: fixed;

@@ -32,11 +32,11 @@ button:hover, button:focus{
 }
 
   #item_selective{
-    background-image: url("../img/selective.jpg");
+    background-image: url("../img/selective/selective.jpg");
   }
 
   #item_drivein{
-    background-image: url("../img/drivein.jpg");
+    background-image: url("../img/drivein/drivein.JPG");
   }
 
   #item_narrowaisle{
@@ -85,4 +85,29 @@ button:hover, button:focus{
 
 #item_livestorage{
     background-image: url("../img/livestorage.jpg");
+}
+
+.wrapper h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    padding: 5px;
+}
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.single-img{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    padding: 10px;
 }
