@@ -32,5 +32,6 @@ public class RequestRouter implements WebMvcConfigurer {
         registry.addViewController("/mezzanine").setViewName("/products/mezzanine");
         registry.addViewController("/platform").setViewName("/products/platform");
         registry.addViewController("/boltless").setViewName("/products/boltless");
+        registry.addViewController("/mobileshelving").setViewName("/products/mobileshelving");
     }
 }
