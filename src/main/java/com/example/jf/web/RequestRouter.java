@@ -33,5 +33,19 @@ public class RequestRouter implements WebMvcConfigurer {
         registry.addViewController("/platform").setViewName("/products/platform");
         registry.addViewController("/boltless").setViewName("/products/boltless");
         registry.addViewController("/mobileshelving").setViewName("/products/mobileshelving");
+        registry.addViewController("/selective-vn").setViewName("/products-vn/selective-vn");
+        registry.addViewController("/drivein-vn").setViewName("/products-vn/drivein-vn");
+        registry.addViewController("/livestorage-vn").setViewName("/products-vn/livestorage-vn");
+        registry.addViewController("/narrowaisle-vn").setViewName("/products-vn/narrowaisle-vn");
+        registry.addViewController("/pushback-vn").setViewName("/products-vn/pushback-vn");
+        registry.addViewController("/shuttle-vn").setViewName("/products-vn/shuttle-vn");
+        registry.addViewController("/doubledeep-vn").setViewName("/products-vn/doubledeep-vn");
+        registry.addViewController("/asrs-vn").setViewName("/products-vn/asrs-vn");
+        registry.addViewController("/cantilever-vn").setViewName("/products-vn/cantilever-vn");
+        registry.addViewController("/mobile-vn").setViewName("/products-vn/mobile-vn");
+        registry.addViewController("/mezzanine-vn").setViewName("/products-vn/mezzanine-vn");
+        registry.addViewController("/platform-vn").setViewName("/products-vn/platform-vn");
+        registry.addViewController("/boltless-vn").setViewName("/products-vn/boltless-vn");
+        registry.addViewController("/mobileshelving-vn").setViewName("/products-vn/mobileshelving-vn");
     }
 }
