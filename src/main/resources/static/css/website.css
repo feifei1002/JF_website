@@ -27,6 +27,12 @@ h3{
   padding-right: 10px;
 }
 
+.lang-logo{
+  width: 20px;
+  margin-right: 2px;
+  vertical-align: bottom;
+}
+
 #name{
     margin-right: auto
 }
@@ -155,9 +161,7 @@ iframe{
   opacity: 0.8;
   border-radius: 5px;
   position: relative;
-  top: 10px;
-  left: 40px;
-  padding: 30px
+  padding: 30px;
 }
 
 .quote h1, .quote p{
