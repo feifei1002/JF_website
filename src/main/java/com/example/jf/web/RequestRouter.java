@@ -27,5 +27,6 @@ public class RequestRouter implements WebMvcConfigurer {
         registry.addViewController("/shuttle").setViewName("/products/shuttle");
         registry.addViewController("/doubledeep").setViewName("/products/doubledeep");
         registry.addViewController("/asrs").setViewName("/products/asrs");
+        registry.addViewController("/cantilever").setViewName("/products/cantilever");
     }
 }
