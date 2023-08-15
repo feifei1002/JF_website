@@ -6,7 +6,7 @@
 
 header{
   display: flex;
-  background-color: #4F7B58;
+  background-color: #03AB46;
   color: white;
   justify-content: flex-end;
   align-items: center;
@@ -40,7 +40,11 @@ h3{
 
 .nav li{
   display: inline-block;
-  padding: 10px;
+  padding: 8px;
+}
+
+a{
+  text-decoration: none;
 }
 
 #navbar{
@@ -64,7 +68,7 @@ a:link, a:visited{
     justify-content: space-around;
     background-image: url("../img/home.jpg");
     color: black;
-    min-height: 383px;
+    min-height: 387px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +95,7 @@ footer{
   flex-direction: row;
   text-align: center;
   justify-content: space-around;
-  background-color: #4F7B58;
+  background-color: #03AB46;
   color: white;
   flex-shrink: 0;
   flex:1;
@@ -99,6 +103,10 @@ footer{
 }
 
 .footer h3{
+  text-decoration: underline;
+}
+
+.footer a{
   text-decoration: underline;
 }
 
@@ -226,5 +234,5 @@ ul li:hover ul.dropdown{
 }
 
 ul.dropdown li:hover{
-  background: #4F7B58;
+  background: #03AB46;
 }
