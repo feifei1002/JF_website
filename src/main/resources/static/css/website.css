@@ -1,11 +1,12 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
 header{
   display: flex;
-  background-color: red;
+  background-color: #4F7B58;
   color: white;
   justify-content: flex-end;
   align-items: center;
@@ -39,7 +40,7 @@ h3{
 
 .nav li{
   display: inline-block;
-  padding: 10px
+  padding: 10px;
 }
 
 #navbar{
@@ -48,9 +49,9 @@ h3{
   text-align: center;
   justify-content: center;
   margin: 0;
-  background-color: #093907;
+  background-color: #AC3231;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 18.75px;
 }
 
 a:link, a:visited{
@@ -63,7 +64,7 @@ a:link, a:visited{
     justify-content: space-around;
     background-image: url("../img/home.jpg");
     color: black;
-    min-height: 374px;
+    min-height: 383px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,10 +91,11 @@ footer{
   flex-direction: row;
   text-align: center;
   justify-content: space-around;
-  background-color: red;
+  background-color: #4F7B58;
   color: white;
   flex-shrink: 0;
   flex:1;
+  font-size: 12px;
 }
 
 .footer h3{
@@ -150,6 +152,23 @@ iframe{
   width: 120px;
 }
 
+.download_catalogue{
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #AC3231;
+  border-radius: 5px;
+  height: 60px;
+  width: 180px;
+  color: white;
+  font-size: 18.75px;
+  text-align: center;
+}
+
+.download_catalogue:hover, .download_catalogue:focus{
+  width: 200px;
+  font-weight: bold;
+}
+
 .quote{
   display: flex;
   flex-direction:column;
@@ -175,7 +194,7 @@ iframe{
   border-radius: 20px;
   border-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 18.75px;
   position: relative;
   align-self: center;
 }
@@ -183,4 +202,29 @@ iframe{
 #seemore:hover, #seemore:focus, #a1{
   text-decoration: underline;
   font-weight: bolder;
+}
+
+.dropdown li{
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  padding: 7px;
+}
+
+.dropdown{
+  position: absolute;
+  display: none;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+  background: #AC3231;
+  position: absolute;
+  overflow: hidden;
+  overflow-y :auto;
+  z-index:10;
+}
+
+ul.dropdown li:hover{
+  background: #4F7B58;
 }
