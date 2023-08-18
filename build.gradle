@@ -2,7 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.1.1'
 	id 'io.spring.dependency-management' version '1.1.0'
-	id "com.microsoft.azure.azurewebapp" version "1.1.0"
+//	id "com.microsoft.azure.azurewebapp" version "1.1.0"
 }
 
 group = 'com.example'
@@ -22,18 +22,18 @@ repositories {
 	mavenCentral()
 }
 
-azurewebapp {
-	subscription = '1b2b1da2-c1fb-4db4-8bfc-5b0493a3acb2'
-	resourceGroup = 'jf-website'
-	appName = 'jfrack'
-	pricingTier = 'F1'
-	region = 'East Asia'
-	runtime {
-		os = 'Windows'
-		webContainer = 'Java SE'
-		javaVersion = 'Java 17'
-	}
-}
+//azurewebapp {
+//	subscription = '1b2b1da2-c1fb-4db4-8bfc-5b0493a3acb2'
+//	resourceGroup = 'jf-website'
+//	appName = 'jfrack'
+//	pricingTier = 'F1'
+//	region = 'East Asia'
+//	runtime {
+//		os = 'Windows'
+//		webContainer = 'Java SE'
+//		javaVersion = 'Java 17'
+//	}
+//}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
