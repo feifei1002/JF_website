@@ -50,4 +50,4 @@ jobs:
           app-name: 'jfrack'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4BB7E0ECE0E144FE8524E691502B369D }}
-          package: 'build/libs/JF-0.0.1-SNAPSHOT.jar'
+          package: 'JF-0.0.1-SNAPSHOT.jar'
