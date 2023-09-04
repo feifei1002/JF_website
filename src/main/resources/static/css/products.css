@@ -10,14 +10,15 @@
 }
 
 button{
-    display: flex;
+    position: relative;
+    display: inline-flex;
     flex-direction:column;
     justify-content: center;
     color: white;
     background-position: center;
     background-size: 100%;
     height: 300px;
-    width: 1000px;
+    width: 800px;
     border: none;
     border-radius: 20px;
     align-items: center;
@@ -71,7 +72,7 @@ button:hover, button:focus{
   }
 
   #item_mobileshelving{
-    background-image: url("../img/mobileshelving/mobileshelving.jpg");
+    background-image: url("../img/mobileshelving/mobileshelving.JPG");
   }
 
 #item_mezzanine{
