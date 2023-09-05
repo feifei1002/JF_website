@@ -71,7 +71,7 @@ a:link, a:visited{
     /*min-height: 387px;*/
     background-attachment: fixed;
     background-position: center;
-    background-image: url("../img/home.png");
+    background-image: url("../img/home.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     align-self: center;
@@ -194,7 +194,7 @@ iframe{
   border-radius: 5px;
   position: relative;
   padding: 30px;
-  margin: 120px;
+  margin: 200px;
 }
 
 .quote h1, .quote p{
