@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<title>聯絡我們</title>
+  <meta name="keywords" content="J&F, Công ty TNHH Quốc tế J&F, kệ trữ hàng, kệ kho, kệ, jfrack" />
+  <meta name="google-site-verification" content="aiIYGhlKi_JA__hyi8PJDbxeVGZ_3epNaTAe8jdTOVo" />
+  <link rel="icon" type="image/png" href="/img/logo.png" />
+  <link th:replace="fragments/fragment-zh :: style-css">
+  <link rel="stylesheet" th:href="@{/css/website.css}">
+</head>
+
+<body>
+<link th:replace="fragments/fragment-zh :: header">
+
+<section>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62660.194286596714!2d106.66181923514571!3d11.018947979438671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d058f7ba4d6f%3A0x1646825d7a23214b!2sJ%26F%20Company!5e0!3m2!1szh-TW!2suk!4v1639338239934!5m2!1szh-TW!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  <div class="contact">
+  <form id="contForm" action="https://formsubmit.co/96ec9e9ff78dacb5644415762b695dbd" method="POST">
+    <h2>聯絡我們</h2>
+    <p>請通過下方的表格聯繫我們</p><br>
+    <input type="text" name="姓名" placeholder="姓名"><br><br>
+    <input type="email" name="電址郵件" placeholder="電址郵件"><br><br>
+    <input type="number" name="電話號碼" placeholder="電話號碼"><br><br>
+    <textarea name="需求" placeholder="您的需求"></textarea><br><br>
+    <button type="submit" class="btn">送出</button><br><br>
+  </form>
+
+  <div>
+    <h2>聯繫方式</h2><br><br>
+      <h3>J&F國際責任有限公司</h3><br><br>
+    <h3>地址</h3>
+      <p>越南平陽省<br>土龍木市復興坊<br>大登工業區C2-18號</p><br>
+    <h3>聯絡</h3>
+      <p>電話: +84-274-3624200</p>
+      <p>劉先生: +84-946-766866</p>
+      <p>王小姐: +84-946-766889</p>
+      <p>電子郵件: <a style="color:black" href="mailto:bd@jfrack.com">bd@jfrack.com</a></p>
+
+    <a href="/H-series%20catalogue.pdf" download="J&F Catalogue">
+      <button class="download_catalogue">下載目錄</button>
+    </a>
+  </div>
+  </div>
+</section>
+
+<link th:replace="fragments/fragment-zh :: footer">
+</body>
+</html>

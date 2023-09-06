@@ -191,4 +191,24 @@ public class JFController {
     public String getShuttlePageVn(){
         return "products-vn/shuttle-vn";
     }
+
+    @RequestMapping(value="/home-zh", method = RequestMethod.GET)
+    public String getHomePageZh(){
+        return "zh/index-zh";
+    }
+
+    @RequestMapping(value="/about-zh", method = RequestMethod.GET)
+    public String getAboutPageZh(){
+        return "zh/about-zh";
+    }
+
+    @RequestMapping(value="/contact-zh", method = RequestMethod.GET)
+    public String getContactPageZh(){
+        return "zh/contact-zh";
+    }
+
+    @RequestMapping(value="/products-zh", method = RequestMethod.GET)
+    public String getProductsPageZh(){
+        return "zh/products-zh";
+    }
 }
