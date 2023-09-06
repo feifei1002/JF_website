@@ -211,4 +211,74 @@ public class JFController {
     public String getProductsPageZh(){
         return "zh/products-zh";
     }
+
+    @RequestMapping(value="/asrs-zh", method = RequestMethod.GET)
+    public String getASRSPageZh(){
+        return "products-zh/asrs-zh";
+    }
+
+    @RequestMapping(value="/boltless-zh", method = RequestMethod.GET)
+    public String getBoltlessPageZh(){
+        return "products-zh/boltless-zh";
+    }
+
+    @RequestMapping(value="/cantilever-zh", method = RequestMethod.GET)
+    public String getCantileverPageZh(){
+        return "products-zh/cantilever-zh";
+    }
+
+    @RequestMapping(value="/doubledeep-zh", method = RequestMethod.GET)
+    public String getDoubleDeepPageZh(){
+        return "products-zh/doubledeep-zh";
+    }
+
+    @RequestMapping(value="/drivein-zh", method = RequestMethod.GET)
+    public String getDriveinPageZh(){
+        return "products-zh/drivein-zh";
+    }
+
+    @RequestMapping(value="/livestorage-zh", method = RequestMethod.GET)
+    public String getLiveStoragePageZh(){
+        return "products-zh/livestorage-zh";
+    }
+
+    @RequestMapping(value="/mezzanine-zh", method = RequestMethod.GET)
+    public String getMezzaninePageZh(){
+        return "products-zh/mezzanine-zh";
+    }
+
+    @RequestMapping(value="/mobile-zh", method = RequestMethod.GET)
+    public String getMobilePageZh(){
+        return "products-zh/mobile-zh";
+    }
+
+    @RequestMapping(value="/mobileshelving-zh", method = RequestMethod.GET)
+    public String getMobileShelvingPageZh(){
+        return "products-zh/mobileshelving-zh";
+    }
+
+    @RequestMapping(value="/narrowaisle-zh", method = RequestMethod.GET)
+    public String getNarrowAislePageZh(){
+        return "products-zh/narrowaisle-zh";
+    }
+
+    @RequestMapping(value="/platform-zh", method = RequestMethod.GET)
+    public String getPlatformPageZh(){
+        return "products-zh/platform-zh";
+    }
+
+    @RequestMapping(value="/pushback-zh", method = RequestMethod.GET)
+    public String getPushbackPageZh(){
+        return "products-zh/pushback-zh";
+    }
+
+    @RequestMapping(value="/selective-zh", method = RequestMethod.GET)
+    public String getSelectivePageZh(){
+        return "products-zh/selective-zh";
+    }
+
+    @RequestMapping(value="/shuttle-zh", method = RequestMethod.GET)
+    public String getShuttlePageZh(){
+        return "products-zh/shuttle-zh";
+    }
 }
