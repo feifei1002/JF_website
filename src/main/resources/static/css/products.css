@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   color: black;
+  justify-content: space-around;
 }
 
 button{
@@ -19,6 +20,8 @@ button{
     background-size: 100%;
     height: 300px;
     width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border: none;
     border-radius: 20px;
     align-items: center;
@@ -33,6 +36,20 @@ button:hover, button:focus{
   opacity: 0.8;
   font-weight: bolder;
     -webkit-text-stroke-width: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    button{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+    button{
+        width: 100%;
+        height: 100%;
+    }
 }
 
   #item_selective{
