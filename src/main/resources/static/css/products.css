@@ -40,15 +40,23 @@ button:hover, button:focus{
 
 @media only screen and (max-width: 600px) {
     button{
-        width: 100%;
+        width:270px;
         height: 100%;
+        font-size: 18.75px;
+    }
+    .items{
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px){
     button{
-        width: 100%;
+        width: 270px;
         height: 100%;
+        font-size: 18.75px;
+    }
+    .items{
+        width: 100%;
     }
 }
 
@@ -131,4 +139,16 @@ button:hover, button:focus{
     width: 500px;
     height: 100%;
     padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .single-img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px){
+    .single-img{
+        width: 100%;
+    }
 }
