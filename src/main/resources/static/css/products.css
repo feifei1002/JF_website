@@ -43,9 +43,8 @@ button:hover, button:focus{
         width:270px;
         height: 100%;
         font-size: 18.75px;
-    }
-    .items{
-        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -54,9 +53,8 @@ button:hover, button:focus{
         width: 270px;
         height: 100%;
         font-size: 18.75px;
-    }
-    .items{
-        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
