@@ -4,6 +4,10 @@
   font-family: Roboto;
 }
 
+html, body{
+  height: 100%;
+}
+
 header{
   display: flex;
   background-color: #03AB46;
@@ -69,10 +73,11 @@ a:link, a:visited{
     color: black;
     height: 100%;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-image: url("../img/home.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     align-self: center;
   }
 
