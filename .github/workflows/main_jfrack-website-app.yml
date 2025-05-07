@@ -28,7 +28,7 @@ jobs:
         run: ./gradlew clean build
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: java-app
           path: 'build/libs/JF-0.0.1-SNAPSHOT.jar'
