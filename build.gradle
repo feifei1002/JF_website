@@ -12,15 +12,6 @@ java {
 	sourceCompatibility = '17'
 }
 
-bootJar {
-	archiveFileName = 'app.jar'
-	enabled = true
-}
-
-jar {
-	enabled = false
-}
-
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
