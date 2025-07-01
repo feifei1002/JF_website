@@ -39,7 +39,8 @@ h3{
 }
 
 #name{
-    margin-right: auto
+    margin-right: auto;
+    font-size: 20px;
 }
 
 .nav li{
@@ -104,11 +105,12 @@ footer{
   color: white;
   flex-shrink: 0;
   flex:1;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .footer h3{
   text-decoration: underline;
+  font-size: 20px;
 }
 
 .footer a{
